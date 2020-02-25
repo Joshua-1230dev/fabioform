@@ -7,7 +7,7 @@
     function frame() {
       if(loading == 70) {
         clearInterval(id);
-        window.open("Register.html", "_self");
+        window.open("register.html", "_self");
       }
       else {
         loading = loading + 1;

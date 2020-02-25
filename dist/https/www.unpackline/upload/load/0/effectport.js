@@ -7,7 +7,7 @@
     function frame() {
       if(loading == 140) {
         clearInterval(id);
-        window.open("Reg-section.html", "_self");
+        window.open("reg-section.html", "_self");
       }
       else {
         loading = loading + 1;
